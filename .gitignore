@@ -184,4 +184,5 @@ yarn-error.log
 
 # End of https://www.toptal.com/developers/gitignore/api/node,vuejs,macos
 
-docs/.vitepress
+docs/.vitepress/cache
+!/docs/.vitepress/config.mts
