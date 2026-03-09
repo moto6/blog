@@ -12,6 +12,7 @@ export default defineConfig({
 export default defineConfig({
   title: "",
   description: "Engineering Note",
+  base: `/${REPOSITORY_NAME}/`,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
