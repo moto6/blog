@@ -10,23 +10,31 @@ export default defineConfig({
  */
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "",
+  title: "my-title-test",
   description: "Engineering Note",
   base: `/${REPOSITORY_NAME}/`,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/contents/markdown-examples' }
     ],
 
     sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: '예시', link: '/api-examples' },
+          { text: 'Markdown Examples', link: '/contents/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/contents/api-examples' },
+          { text: '예시', link: '/contents/api-examples' },
+        ]
+      },
+      {
+        text: '222222',
+        items: [
+          { text: 'Markdown Examples', link: '/contents/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/contents/api-examples' },
+          { text: '내컨텐츠', link: '/contents/260420_test' },
         ]
       }
     ],

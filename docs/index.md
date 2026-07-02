@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Markdown Examples
-      link: /markdown-examples
+      link: /contents/markdown-examples
     - theme: alt
       text: API Examples
-      link: /api-examples
+      link: /contents/api-examples
 
 features:
   - title: Feature A
@@ -21,5 +21,7 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title : 테스트테스트
+    details: wefwefwe
 ---
 
