@@ -23,6 +23,8 @@ jobs:
           cache: npm
       - uses: actions/configure-pages@v5
       - run: npm ci
+      # frontmatter로부터 메인(recent.json)·사이드바(sidebar.json)를 항상 최신 생성
+      - run: make gen
       - run: npm run docs:build
       - uses: actions/upload-pages-artifact@v3
         with:

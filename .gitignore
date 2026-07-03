@@ -186,3 +186,8 @@ yarn-error.log
 
 docs/.vitepress/cache
 !/docs/.vitepress/config.mts
+
+# make tag-stats 로컬 리포트 (커밋하지 않음)
+/tag-stats.md
+
+# generated/ (recent.json, sidebar.json)는 빌드에 필요하므로 커밋합니다.

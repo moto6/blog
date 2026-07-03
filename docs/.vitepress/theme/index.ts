@@ -1,10 +1,12 @@
 // docs/.vitepress/theme/index.ts
 import DefaultTheme from 'vitepress/theme'
-import './style.css' // 우리가 만들 CSS 파일
+import './style.css'
+import RecentPosts from './components/RecentPosts.vue'
 
 export default {
   extends: DefaultTheme,
-//   enhanceApp({ app }) {
-//     // 나중에 컴포넌트나 플러그인 등록할 때 사용
-//   }
+  enhanceApp({ app }) {
+    // 메인페이지에서 <RecentPosts /> 로 사용
+    app.component('RecentPosts', RecentPosts)
+  }
 }

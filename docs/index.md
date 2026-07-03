@@ -13,18 +13,10 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/moto6
-
-features:
-  - title: Markdown Examples
-    details: VitePress가 제공하는 마크다운 확장 문법과 작성 예시를 정리했습니다.
-    link: /contents/markdown-examples
-    linkText: 살펴보기
-  - title: Runtime API Examples
-    details: useData() 등 런타임 API를 활용하는 방법을 예시와 함께 다룹니다.
-    link: /contents/api-examples
-    linkText: 살펴보기
-  - title: 이것저것 끄적
-    details: 공부하고 실험한 내용을 자유롭게 기록하는 공간입니다.
-    link: /contents/260420_test
-    linkText: 살펴보기
 ---
+
+<!--
+  아래 "최근 글" 그리드는 `make landing`이 생성하는 데이터(generated/recent.json)를
+  RecentPosts 컴포넌트가 렌더링합니다. 이 파일을 직접 수정할 필요는 없습니다.
+-->
+<RecentPosts />

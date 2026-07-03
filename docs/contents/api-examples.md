@@ -1,5 +1,10 @@
 ---
 outline: deep
+title: Runtime API 예시
+description: useData() 등 VitePress 런타임 API 사용법.
+date: 2026-02-06
+category: 예시
+tag: #vitepress #api
 ---
 
 # Runtime API Examples

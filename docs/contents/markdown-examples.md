@@ -1,3 +1,11 @@
+---
+title: Markdown 확장 문법 예시
+description: VitePress가 제공하는 마크다운 확장 문법 모음.
+date: 2026-02-06
+category: 예시
+tag: #vitepress #markdown
+---
+
 # Markdown Extension Examples
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
