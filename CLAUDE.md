@@ -2,7 +2,6 @@
 
 > 용도: 내가 쓴 기술 블로그 초안을 **다듬을(polish)** 때 쓰는 규칙.
 > 새로 써주는 게 아니라, **내 목소리를 유지한 채** 더 깔끔하고 담백하게 만드는 게 목표.
-> 저장 위치: 블로그 원고 폴더 루트에 `CLAUDE.md` 로 저장.
 
 ---
 
@@ -13,6 +12,38 @@
 - **뺄 수 있으면 뺀다.** 문장을 늘려 분량을 부풀리지 않는다. 같은 뜻이면 더 짧은 쪽이 항상 맞다.
 - **없는 내용 지어내지 않는다.** 수치, 사례, 고유명사, 출처를 창작하지 않는다. 근거가 애매하면 임의로 채우지 말고 `[확인 필요]` 로 표시한다.
 - **확신을 과장하지 않는다.** "아직 못 봤음", "걱정임", "불투명함" 같은 솔직한 유보 표현을 매끄럽게 단정형으로 바꾸지 않는다. 이게 이 글의 신뢰감의 핵심이다.
+- 최종적인 글의 목표는 데이터나 팩트만 잔뜩 늘어놓는 것이 아니다 (DO NOT!)
+  - **"그래서 이게 무슨 의미이고, 우리는 무엇을 해야 하는가?"**에 대한 대답(인사이트와 액션 플랜)을 도출해 내는 핵심을 도출해 내는것이 목적이다. 
+  - 인사이트와 액션플랜 도출을 위한 프레임워크로는 `SoWhat` 과 `WhySo` 프레임워크를 사용한다(SoWhat, WhySo 프레임워크는 하단에 제시)
+- 글쓰기 프레임워크 (SoWhat-WhySo)
+  - So What? (그래서 핵심이 뭔데? / 그래서 어쩌라고?) : 수집한 데이터와 팩트(Fact)를 바탕으로 **"의미(Insight)"**와 **"실행 방안(Action)"**을 추출해 내는 상향식(Bottom-up) 사고입니다.
+  - Why So? (왜 그런데? / 근거가 뭔데?) : 도출한 결론에 대해 **"왜 그렇게 말할 수 있지?"**라고 물었을 때, 밑바탕이 되는 데이터와 구체적 근거를 제시하는 하향식(Top-down) 검증입니다.
+
+---
+
+## Communication & Documentation Rules (So-What / Why-So Framework)
+
+Whenever generating documentation, reports, code explanations, or pull request descriptions, strictly follow the **Pyramid Principle (So-What & Why-So logic)**:
+
+### Document Structure & Writing Principles
+- **Conclusion First (So-What):** Always start with the primary conclusion, key takeaway, or recommended action in the very first sentence or paragraph. Never bury the main point.
+- **Evidence & Rationale (Why-So):** Immediately follow the conclusion with logical reasoning, concrete facts, or data that support "why" that conclusion was reached.
+- **No Fluff:** Eliminate introductory filler, vague summaries, and conversational warm-ups. Deliver actionable insights directly.
+
+### Table of Contents & Heading Hierarchy
+Structure outlines and headings logically so a reader can understand the entire core message just by scanning the titles:
+- **`# Title` / `## Section` (So-What Level):** Name the core decision, outcome, or key action (e.g., `## Recommendation: Migrate to Redis Cache` instead of `## Cache Overview`).
+- **`### Sub-section` / Bullets (Why-So Level):** Group the supporting arguments clearly beneath each decision:
+  1. **Primary Rationale:** Core reason for the decision.
+  2. **Supporting Data/Metrics:** Measurable evidence (perf impact, cost, benchmark).
+  3. **Implementation Details / Trade-offs:** Technical context or risks.
+
+### Paragraph Formatting Standard
+Apply this 3-step pattern to all explanatory paragraphs:
+> **[So-What]** Core takeaway or action item (Bolded).  
+> **[Why-So]** Direct cause, logic, or justification.  
+> **[Data/Fact]** Supporting evidence, code snippet, or metric.
+
 
 ---
 
@@ -92,11 +123,11 @@
 
 ---
 
-## 7. 블로그 개별 설정 (필요 시 채우기)
+##  블로그 개별 설정 (필요 시 채우기)
 
-- **플랫폼/형식:** <사내 블로그 / 개인 블로그 / 마크다운·HTML 등>
-- **제목·소제목 규칙:** <번호식 유지, H2까지만 등>
-- **링크·출처 표기 방식:** <인라인 마크다운 링크 등>
-- **금지어/자주 하는 실수:** <내가 자꾸 틀리는 맞춤법·습관어 목록>
-- **분량 감각:** <한 편 기준 대략 길이>
+- 플랫폼/형식: 개인 블로그 / 마크다운 형식
+- 제목·소제목 규칙: 번호 붙이지마 유지, H4까지만 사용
+- 링크·출처 표기 방식: 인라인 마크다운 링크 등을 사용
+- 금지어/자주 하는 실수: 내가 자꾸 틀리는 맞춤법·습관어 목록
+- 분량 감각: 한 편 기준 대략 길이는 code snippet 제외 10분 내로 읽을수 있는것
 - **꼭 지킬 것:** <음슴체+해요체 혼합 유지, 유보 표현 보존 등>
