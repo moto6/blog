@@ -69,3 +69,38 @@ Elevate everyday vocabulary with more precise and formal options:
 | **Show** | **Illustrate** / **Demonstrate** | "This example illustrates the concept well." |
 | **Change** | **Shift** / **Transform** | "The term experienced a slight shift in meaning." |
 | **Idea** | **Concept** / **Perspective** | "From my perspective, the phrasing makes sense." |
+
+
+---
+
+# Additional Feedback & Master's Preparation Guide
+
+## 1. Thesis Readiness Assessment
+
+* **Current Status:** Your English is far from "poor." You possess strong functional language skills and can express abstract ideas, historical nuances, and complex logic clearly.
+* **Core Difference:** Casual English tolerates shortcuts (e.g., *"i wanna know"*), whereas a master's thesis requires strict academic structure, an objective register, and precise formatting.
+* **Verdict:** You are fully capable of writing and passing an English master's thesis in the US, provided you transition from conversational habits to formal academic writing conventions.
+
+---
+
+## 2. Core Strategies to Achieve Master's Standards
+
+### A. Shift to Academic Register
+* **Replace Personal Intent:** Instead of conversational phrases (*"I want to check..."*), use objective research statements (*"This study investigates..."*).
+* **Prioritize Sentence Clarity:** Avoid overly long sentences. Maintain direct **[Subject + Verb + Object]** structures to prevent grammatical ambiguity.
+
+### B. Implement a Structured Workflow
+* **Draft First, Edit Later:** Write your initial ideas freely without worrying about perfect grammar, then refine the language during revisions.
+* **Utilize University Resources:** Make use of your campus **Writing Center**, where tutors assist graduate students with tone, formatting, and structural flow.
+* **Leverage Proofreading:** Rely on editing tools and peer reviews from native-speaking classmates or lab members. Professional proofreading is standard practice for graduate researchers worldwide.
+
+---
+
+## 3. Academic Phrasebook Reference
+
+| Writing Goal | Conversational Phrase | Academic Replacement |
+| :--- | :--- | :--- |
+| **State Objective** | I want to see if... | *This study aims to examine whether...* |
+| **Contrast Ideas** | But this study says... | *Conversely, recent literature suggests...* |
+| **Present Data** | The chart shows that... | *The findings illustrate a significant relationship between...* |
+| **Conclude** | So this means... | *Consequently, these results imply that...* |
